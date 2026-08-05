@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+				<title>Эдуард | Python Developer</title>
+
+				<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+	<body>
+
+		<div id="particles"></div>
+
+		<nav>
+			<h2>Эдуард</h2>
+
+			<ul>
+				<li>
+					<a href="#about">Обо мне</a>
+				</li>
+				<li>
+					<a href="#projects">Проекты</a>
+				</li>
+				<li>
+					<a href="#skills">Навыки</a>
+				</li>
+				<li>
+					<a href="#contact">Контакты</a>
+				</li>
+			</ul>
+		</nav>
+
+		<header class="hero">
+
+			<h1>Привет 👋</h1>
+
+			<h2>
+				Я <span>Эдуард</span>
+			</h2>
+
+			<p>Python Developer • Flask • Telegram Bots • AI</p>
+
+			<a href="#projects" class="button">
+				Смотреть проекты
+			</a>
+
+		</header>
+
+		<section id="about" class="hidden">
+
+			<h2>Обо мне</h2>
+
+			<div class="glass">
+
+				<p>
+
+					Мне 14 лет.
+
+					Изучаю Python.
+
+					Создаю сайты, Telegram-ботов и проекты с искусственным интеллектом.
+
+				</p>
+
+			</div>
+
+		</section>
+
+		<section id="projects" class="hidden">
+
+			<h2>Мои проекты</h2>
+
+			<div class="cards">
+
+				<div class="card">
+					<h3>🤖 Telegram Bot</h3>
+					<p>Боты для автоматизации.</p>
+				</div>
+
+				<div class="card">
+					<h3>🌐 Flask</h3>
+					<p>Современные сайты.</p>
+				</div>
+
+				<div class="card">
+					<h3>🧠 AI</h3>
+					<p>Проекты с искусственным интеллектом.</p>
+				</div>
+
+			</div>
+
+		</section>
+
+		<section id="skills" class="hidden">
+
+			<h2>Навыки</h2>
+
+			<div class="cards">
+
+				<div class="card">🐍 Python</div>
+				<div class="card">🌐 Flask</div>
+				<div class="card">🎨 HTML</div>
+				<div class="card">🎨 CSS</div>
+				<div class="card">⚡ JavaScript</div>
+
+			</div>
+
+		</section>
+
+		<section id="contact" class="hidden">
+
+			<h2>Контакты</h2>
+
+			<div class="glass">
+
+				<p>📧 Email</p>
+				<p>💬 Telegram</p>
+				<p>🐙 GitHub</p>
+
+			</div>
+
+		</section>
+
+		<footer>
+
+			© 2026 Эдуард
+
+		</footer>
+
+		<script src="{{ url_for('static', filename='script.js') }}"></script>
+
+	</body>
+</html>
